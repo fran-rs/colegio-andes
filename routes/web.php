@@ -6,47 +6,54 @@ use Illuminate\Support\Facades\Route;
 $articles = [
     [
         'id' => 1,
-        'title' => 'Cuaderno',
-        'description' => 'Cuaderno Vegeta',
-        'image' => 'https://http2.mlstatic.com/D_NQ_NP_620161-MLU74272678546_022024-O.webp',
-        'content' => 'Cuaderno Vegeta, para estudiar como un prícipe sayayin'
+        'title' => 'La Importancia de la Educación en el Siglo XXI',
+        'description' => 'Un análisis sobre el papel fundamental de la educación en el mundo moderno.',
+        'image' => 'https://www.lampadia.com/assets/uploads_images/images/Using-ipads-in-the-classroom.jpeg',
+        'content' => 'La educación es un pilar esencial para el desarrollo personal y social. En este artículo, exploramos cómo la educación ha evolucionado y por qué es crucial adaptarse a los cambios tecnológicos y culturales.',
+        'author' => 'Laura Gómez'
     ],
     [
         'id' => 2,
-        'title' => 'Segundo artículo',
-        'description' => 'Estuche arcoíris.',
-        'image' => 'https://cdnx.jumpseller.com/cocholate/image/46411785/Photoroom_20240313_115548.jpg?1710346889',
-        'content' => 'Estuche arcoíris, donde guardarás los mágicos útiles escolares.'
+        'title' => 'Técnicas de Estudio Efectivas',
+        'description' => 'Consejos prácticos para mejorar tus hábitos de estudio.',
+        'image' => 'https://images.griddo.universitatcarlemany.com/10-tecnicas-de-estudio-para-potenciar-tu-aprendizaje',
+        'content' => 'Estudiar de manera efectiva es un arte. En este artículo, compartimos técnicas que han demostrado ser útiles para estudiantes de todas las edades, desde la toma de apuntes hasta la planificación del tiempo.',
+        'author' => 'Miguel Fernández'
     ],
     [
         'id' => 3,
-        'title' => 'Tercer artículo',
-        'description' => 'Mochila One Piece.',
-        'image' => 'https://lojamundootaku.com.br/cdn/shop/files/3FB07245-458B-40CB-B6E3-DE3AEC159D0A.jpg?v=1706484752',
-        'content' => 'Mochila One Piece para lograr conseguir ser el rey de los piratas.'
+        'title' => 'El Futuro de la Educación a Distancia',
+        'description' => 'Reflexiones sobre el impacto de la tecnología en la educación.',
+        'image' => 'https://geekeducativo.com/wp-content/uploads/2024/07/El-impacto-de-la-pandemia-en-la-educacion-a-distancia-y-el-futuro-del-aprendizaje-en-linea.webp',
+        'content' => 'La educación a distancia ha ganado popularidad en los últimos años. Este artículo examina sus beneficios, desafíos y el futuro de esta modalidad educativa en el contexto actual.',
+        'author' => 'Ana Ruiz'
     ],
     [
         'id' => 4,
-        'title' => 'Cuarto artículo',
-        'description' => 'Cuaderno Pokemon.',
-        'image' => 'https://www.ekiz.cl/cdn/shop/products/454.CuadernodeAnimePokemon_SeparadoraTono-PokemonTipoAgua.jpg?v=1682003112',
-        'content' => 'Cuaderno Pokémon, para atrapar todos los conocimientos.'
+        'title' => 'Cómo Fomentar la Creatividad en los Estudiantes',
+        'description' => 'Estrategias para estimular la creatividad en el aula.',
+        'image' => 'https://img.becasinternacionales.net/webapp/img/upload/fc5209_propuestas-de-clase-para-fomentar-la-creatividad-en-los-estudiantes.jpg',
+        'content' => 'La creatividad es esencial para el aprendizaje. En este artículo, exploramos métodos para inspirar a los estudiantes y ayudarles a desarrollar su pensamiento creativo dentro y fuera del aula.',
+        'author' => 'Carlos Martínez'
     ],
     [
         'id' => 5,
-        'title' => 'Quinto artículo',
-        'description' => 'Uniforme oficial.',
-        'image' => 'https://www.confeccioneskamy.cl/wp-content/uploads/2022/01/SKU-913050100-scaled.jpg',
-        'content' => 'Uniforme oficial Colegio Andes.'
+        'title' => 'El Papel de la Educación Ambiental',
+        'description' => 'La necesidad de incorporar la educación ambiental en el currículo.',
+        'image' => 'https://educacion.mma.gob.cl/wp-content/uploads/2019/06/arbol-600x334.jpg',
+        'content' => 'La educación ambiental es fundamental para concienciar a las nuevas generaciones sobre la importancia de cuidar nuestro planeta. Este artículo ofrece ideas sobre cómo integrar este tema en la educación diaria.',
+        'author' => 'Sofía López'
     ],
     [
         'id' => 6,
-        'title' => 'Sexto artículo',
-        'description' => 'Polera oficial.',
-        'image' => 'https://www.artiydiseno.cl/image/cache/data/mayor/06M-900x900.jpg',
-        'content' => 'Polera oficial del Colegio Andes.'
+        'title' => 'Los Beneficios de la Lectura en los Niños',
+        'description' => 'Explorando cómo la lectura impacta el desarrollo infantil.',
+        'image' => 'https://static.guiainfantil.com/pictures/articulos/39083-3-juegos-para-mejorar-la-comprension-lectora-de-los-ninos.jpg',
+        'content' => 'La lectura es una actividad esencial para el desarrollo cognitivo de los niños. En este artículo, discutimos los múltiples beneficios que trae consigo el hábito de la lectura desde una edad temprana.',
+        'author' => 'Javier Torres'
     ]
 ];
+
 
 
 

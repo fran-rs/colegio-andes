@@ -1,8 +1,7 @@
-<x-layout meta-title="Colegio Andes" meta-description="Home description">
+<x-layout meta-title="Blog title" meta-description="Blog description">
     <div class="container mt-4">
         <p class="text-center">Bienvenido al Colegio Andes</p>
-
-        <h2 class="text-center mt-4">Artículos Recientes</h2>
+        <h1 class="text-center mb-4">Artículos</h1>
 
         <div class="row">
             @foreach ($articles as $article)
@@ -12,6 +11,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $article['title'] }}</h5>
                             <p class="card-text">{{ $article['description'] }}</p>
+                            <p class="card-text"><small class="text-muted">Por {{ $article['author'] }}</small></p>
                             <a href="{{ route('articles.show', $article['id']) }}" class="btn btn-primary">Ver Detalle</a>
                         </div>
                     </div>
